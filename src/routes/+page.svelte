@@ -89,7 +89,7 @@
 
 		<!-- CTA -->
 		<div class="mt-10 flex animate-fade-up items-center gap-4" style="animation-delay: 0.2s;">
-			<Button href="https://luma.com/calendar/cal-JeGvjPYX6BpxKfp?period=past">
+			<Button href="https://lu.ma/chicag-builders">
 				Join Our Next Event
 				<svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
 					<path d="M5 12h14M12 5l7 7-7 7" />
@@ -207,7 +207,7 @@
 			Check out upcoming gatherings and RSVP.
 		</p>
 		<div class="mt-10">
-			<Button href="https://luma.com/calendar/cal-JeGvjPYX6BpxKfp?period=past">
+			<Button href="https://lu.ma/chicag-builders">
 				View Upcoming Events
 				<svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
 					<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
@@ -234,7 +234,7 @@
 					Details
 				</a>
 				<a
-					href="https://luma.com/calendar/cal-JeGvjPYX6BpxKfp?period=past"
+					href="https://lu.ma/chicag-builders"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="text-sm text-white/60 transition-colors hover:text-white"
