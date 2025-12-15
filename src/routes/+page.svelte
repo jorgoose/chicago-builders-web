@@ -38,7 +38,7 @@
 		{
 			title: 'Looking for Collaborators',
 			description:
-				'Need a co-founder, technical help, design feedback, or just another set of eyes on what you\'re building.'}
+				'Need a co-founder, technical help, design feedback, or just another set of eyes on what you\'re building.'
 		}
 	];
 
