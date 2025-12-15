@@ -43,7 +43,7 @@
 	];
 
 	// ASCII art symbols
-	const chicagoSkyline = String.raw`
+	const iconSymbols = String.raw`
 
           .. .-*%#=.    ......                                           ..
          .:#@@@%*+==..=@@*....                 #                   .....  ...-**:....   ...
@@ -76,9 +76,9 @@
 			</h1>
 		</div>
 
-		<!-- ASCII Skyline -->
+		<!-- ASCII Icons -->
 		<div class="mb-12 overflow-x-auto overflow-y-hidden" aria-hidden="true">
-			<pre class="ascii-art">{chicagoSkyline}</pre>
+			<pre class="ascii-art">{iconSymbols}</pre>
 		</div>
 
 		<!-- Tagline -->
