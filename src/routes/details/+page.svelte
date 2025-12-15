@@ -3,69 +3,69 @@
 
 	const whatHappens = [
 		{
-			title: 'Demo Nights',
+			title: 'Show Your Work',
 			description:
-				'Members present what they\'re building. 5-10 minute demos showing real code, real products, real progress. Pop the hood and share your stack.'
+				'Bring what you\'re building and walk people through it. Could be a prototype, a feature you shipped last week, or an open source project. Show the code, explain your choices.'
 		},
 		{
-			title: 'Code-Along Sessions',
+			title: 'Work Together',
 			description:
-				'Live coding, pair programming, debugging together. Bring your laptop and work alongside other builders.'
+				'Sometimes we code together. Debug a problem, pair program on something interesting, or just hack on projects side by side. Bring your laptop.'
 		},
 		{
-			title: 'Share Ideas',
+			title: 'Technical Conversations',
 			description:
-				'Informal conversations about architecture decisions, tech stacks, what\'s working, what\'s not. No formal agenda, just real talk between makers.'
+				'Talk about the stuff that matters - why you chose that framework, how you\'re handling deployment, what challenges you\'re facing. Real problems, real solutions.'
 		},
 		{
-			title: 'Collaboration',
+			title: 'Find Collaborators',
 			description:
-				'Find co-founders, get technical feedback, meet people outside your usual circles. The full-stack dev meets the hardware engineer.'
+				'Meet people working on different things. Get feedback on your approach, find someone to build with, or just learn from how others work.'
 		}
 	];
 
 	const whoItsFor = [
 		{
-			title: 'Active Builders',
+			title: 'Making Something',
 			description:
-				'You\'re shipping code, designing products, or building something tangible. Side projects, startups, open source - doesn\'t matter. What matters is you\'re doing it.'
+				'You\'re building something - an app, a tool, a product. Maybe it\'s a side project, maybe it\'s your startup. Point is, you\'re actively working on it.'
 		},
 		{
-			title: 'Can Pop the Hood',
+			title: 'Understands the Tech',
 			description:
-				'You can explain your tech stack, show your GitHub repo, or walk through your architecture. You don\'t just use tools - you understand how they work.'
+				'You know what\'s under the hood. You can talk about your architecture, explain your code, show your repository. You\'re not afraid to get technical.'
 		},
 		{
-			title: 'Want to Share & Learn',
+			title: 'Wants Real Feedback',
 			description:
-				'You\'re excited to show your work and curious about others\' processes. You see value in code deep-dives and technical discussions.'
+				'You\'re looking for honest technical discussion, not validation. You want to learn from other builders and share what you\'ve figured out.'
 		}
 	];
 
 	const whoItsNotFor = [
 		{
 			icon: '❌',
-			title: 'Investors Sourcing Deals',
+			title: 'Raising Money',
 			description:
-				'This isn\'t a pitch event or demo day for fundraising. If you\'re primarily looking to source investment opportunities, this isn\'t the place.'
+				'Not a pitch night. If you\'re here to meet investors or get funding, that\'s not what this is about.'
 		},
 		{
 			icon: '❌',
-			title: 'Recruiters & Job Seekers',
+			title: 'Hiring or Job Hunting',
 			description:
-				'No recruiting pitches, no job boards, no "we\'re hiring" spiels. If you\'re here to find employees or employment, please look elsewhere.'
+				'This isn\'t for recruiting or job searching. Don\'t come to fill a role or find one. Keep it about the work, not the job market.'
 		},
 		{
 			icon: '❌',
-			title: 'Marketers & Consultants',
+			title: 'Selling Services',
 			description:
-				'This isn\'t a lead-gen event. If you\'re looking to pitch services, find clients, or build a prospect list, this community isn\'t for you.'
+				'No agency pitches, no consulting offers. If you\'re trying to get clients or push your services, this isn\'t the place.'
 		},
 		{
 			icon: '❌',
-			title: 'Product Promoters',
+			title: 'Promoting Your Product',
 			description:
-				'Not a place to shill your SaaS, plugin, or platform. If your main goal is promoting your product or getting users, this isn\'t the venue.'
+				'Not here to gain users or push your SaaS. Come to share what you\'re building, not to market it.'
 		}
 	];
 </script>
@@ -74,7 +74,7 @@
 	<title>Details - Chicago Builders</title>
 	<meta
 		name="description"
-		content="What happens at Chicago Builders meetups, who it's for, and who it's not for. A builder-first community for makers shipping real work."
+		content="Everything you need to know about Chicago Builders meetups - what we do, who should come, and who shouldn't."
 	/>
 </svelte:head>
 
@@ -93,8 +93,7 @@
 
 		<div class="max-w-2xl animate-fade-up" style="animation-delay: 0.1s;">
 			<p class="text-lg leading-relaxed text-white/60 md:text-xl">
-				What happens at our meetups, who this community is for, and who it's not for. We're
-				builder-first: demos, code deep-dives, no fluff.
+				Everything you need to know about Chicago Builders. What happens when we meet, who belongs here, and who doesn't.
 			</p>
 		</div>
 
@@ -117,8 +116,7 @@
 			<SectionLabel>What Happens</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">At the Meetups</h2>
 			<p class="mt-6 max-w-3xl text-lg leading-relaxed text-white/60">
-				Think Homebrew Computer Club: show what you're building, share your process, get feedback
-				from other makers. No formal presentations, no pitch decks - just builders sharing ideas.
+				It's informal and flexible. Sometimes people demo what they're working on, sometimes we code together, sometimes it's just conversations about technical challenges. No rigid structure, just whatever's useful.
 			</p>
 		</div>
 
@@ -138,11 +136,9 @@
 	<div class="mx-auto max-w-6xl px-4 md:px-6">
 		<div class="mb-16">
 			<SectionLabel>Who It's For</SectionLabel>
-			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">Active Builders</h2>
+			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">People Building Things</h2>
 			<p class="mt-6 max-w-3xl text-lg leading-relaxed text-white/60">
-				Whether you're a CS grad who's now CTO of a startup, or part of the new generation shipping
-				impressive work through low-code tools and AI pipelines - you must be able to pop the hood
-				and share your stack, workflow, or setup to help others iterate and ship.
+				You're working on something real. Doesn't matter if it's a side project you started last month or a company you've been running for years. What matters is you're actually making something, not just thinking about it.
 			</p>
 		</div>
 
@@ -167,8 +163,7 @@
 			<SectionLabel>Who It's Not For</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">Not For Everyone</h2>
 			<p class="mt-6 max-w-3xl text-lg leading-relaxed text-white/60">
-				We're explicit about this because it matters. This is a curated community for people
-				actively building things. If you're in one of these categories, this isn't the right fit.
+				We keep this focused on people making things. That means some folks won't find what they're looking for here, and that's okay. Better to be clear upfront.
 			</p>
 		</div>
 
@@ -187,11 +182,9 @@
 				<div class="flex items-start gap-4">
 					<div class="text-2xl">💡</div>
 					<div>
-						<h3 class="font-display text-xl text-white">Not Sure If You Fit?</h3>
+						<h3 class="font-display text-xl text-white">Still Unsure?</h3>
 						<p class="mt-3 leading-relaxed text-white/60">
-							If you're working on something - even if it's early or imperfect - you probably belong
-							here. The key question: can you show us what you're building and explain how it works?
-							If yes, come through.
+							If you're making something and want to talk about it with other people who are also making things, you'll probably fit right in. Just show up.
 						</p>
 					</div>
 				</div>
@@ -204,10 +197,9 @@
 <section class="border-t border-white/10 py-24 md:py-32">
 	<div class="mx-auto max-w-4xl px-4 text-center md:px-6">
 		<StarIcon class="mx-auto mb-8 h-10 w-10 text-white/30" />
-		<h2 class="font-display text-5xl text-white md:text-6xl">Ready to Join?</h2>
+		<h2 class="font-display text-5xl text-white md:text-6xl">See You There</h2>
 		<p class="mx-auto mt-6 max-w-xl text-lg text-white/60">
-			If you're actively building something and want to meet other makers in Chicago, come to the
-			next meetup.
+			Check out the next meetup and RSVP if it sounds like your kind of thing.
 		</p>
 		<div class="mt-10">
 			<Button href="https://lu.ma/chicago-builders">
