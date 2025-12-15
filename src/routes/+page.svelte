@@ -76,8 +76,8 @@
 		</div>
 
 		<!-- ASCII Icons -->
-		<div class="mb-12 overflow-x-auto overflow-y-hidden" aria-hidden="true">
-			<pre class="ascii-art">{iconSymbols}</pre>
+		<div class="mb-12 overflow-hidden" aria-hidden="true">
+			<pre class="ascii-art w-full text-[0.5rem] sm:text-xs md:text-sm">{iconSymbols}</pre>
 		</div>
 
 		<!-- Tagline -->
