@@ -5,40 +5,40 @@
 		{
 			title: 'Builders First',
 			description:
-				'A space for those who get their hands dirty - coding, designing, making. The common thread is the act of creation.'
+				'For people who make things - code, designs, products. Doing is the common thread.'
 		},
 		{
 			title: 'Community Over Transactions',
 			description:
-				'Long-term relationships over short-term sales. Friends, co-founders, and peers - not clients.'
+				'Build real relationships with other makers. This isn\'t a lead-gen event.'
 		},
 		{
 			title: 'Open & Collaborative',
 			description:
-				'Sharing ideas, offering feedback, breaking silos. The backend engineer should know the industrial designer.'
+				'Share ideas, get feedback, meet people outside your usual circles. The backend engineer should meet the industrial designer.'
 		},
 		{
-			title: 'Grassroots & Gritty',
+			title: 'Casual & Real',
 			description:
-				'We embrace the garage phase. Casual hangouts and honest conversations over polished panels.'
+				'No polished panels or pitch decks. Just honest conversations about what you\'re building.'
 		}
 	];
 
 	const community = [
 		{
-			title: 'The Creators',
+			title: 'Working on Something',
 			description:
-				'Software engineers, hardware hackers, UI/UX designers, and product builders working on side projects or startups.'
+				'Software engineers, designers, and product people building side projects, startups, or open source.'
 		},
 		{
-			title: 'The Curious',
+			title: 'Want to Start Something',
 			description:
-				'People who want to learn how things are made and are looking for inspiration outside of their 9-to-5.'
+				'People looking to get into making things and want to meet others doing it.'
 		},
 		{
-			title: 'The Connectors',
+			title: 'Looking for Collaborators',
 			description:
-				'Anyone looking to find a technical co-founder, a beta tester, or just a friend who gets it.'
+				'Need a co-founder, technical help, design feedback, or just another set of eyes on what you're building.'
 		}
 	];
 
@@ -83,8 +83,7 @@
 		<!-- Tagline -->
 		<div class="max-w-2xl animate-fade-up" style="animation-delay: 0.1s;">
 			<p class="text-lg leading-relaxed text-white/60 md:text-xl">
-				A social club for the city's engineers, designers, founders, and tinkers. No business cards,
-				no sales pitches - just builders.
+				A social club for Chicago's engineers, designers, and founders. No sales pitches, no recruiting - just people making things.
 			</p>
 		</div>
 
@@ -113,20 +112,17 @@
 			<div>
 				<SectionLabel>About</SectionLabel>
 				<h2 class="mt-4 font-display text-5xl text-white md:text-6xl lg:text-7xl">
-					A Third Place
+					A Place to Meet
 					<br />
-					<span class="text-white/40">For Builders</span>
+					<span class="text-white/40">Other Makers</span>
 				</h2>
 			</div>
 			<div class="flex flex-col justify-center">
 				<p class="text-lg leading-relaxed text-white/60">
-					In a city full of professional networking events and corporate mixers, we're building
-					something different: a genuine community for builders.
+					Chicago has plenty of networking events. This isn't one of them.
 				</p>
 				<p class="mt-6 text-lg leading-relaxed text-white/60">
-					We aren't here to exchange business cards or sell services. We connect with others who
-					share the craft of creating, find collaborators for passion projects, and build meaningful
-					relationships offline.
+					We host casual gatherings for people building things - startups, side projects, open source, whatever. Come meet other makers, talk about what you're working on, and maybe find someone to collaborate with.
 				</p>
 			</div>
 		</div>
@@ -137,11 +133,9 @@
 				<div class="flex items-start gap-4">
 					<StarIcon class="mt-1 h-5 w-5 shrink-0 text-white/40" />
 					<div>
-						<h3 class="font-display text-2xl text-white">Our Mission</h3>
+						<h3 class="font-display text-2xl text-white">What We're About</h3>
 						<p class="mt-3 leading-relaxed text-white/60">
-							To cultivate a high-agency community where Chicago's most creative technical minds can
-							meet, socialize, and support one another. We believe the best connections happen
-							organically when passionate people are in the same room.
+							Give people in Chicago who are building things a regular place to meet, hang out, and talk shop. That's it.
 						</p>
 					</div>
 				</div>
@@ -194,14 +188,12 @@
 	<div class="mx-auto max-w-4xl px-4 text-center md:px-6">
 		<SectionLabel>What to Expect</SectionLabel>
 		<h2 class="mt-4 font-display text-5xl text-white md:text-6xl lg:text-7xl">
-			Casual. Authentic.
+			Just Hang Out
 			<br />
-			<span class="text-white/40">No Pressure.</span>
+			<span class="text-white/40">And Talk Shop</span>
 		</h2>
 		<p class="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-white/60">
-			We host casual gatherings in and around downtown Chicago. No strict agenda, no pressure to
-			perform. Come as you are, bring your laptop if you want to show off what you're working on, or
-			just grab a drink and meet other builders.
+			We meet regularly around downtown Chicago. No agenda. Bring your laptop if you want to show what you're working on, or just come grab a drink and meet people.
 		</p>
 	</div>
 </section>
@@ -210,9 +202,9 @@
 <section class="border-t border-white/10 py-24 md:py-32">
 	<div class="mx-auto max-w-4xl px-4 text-center md:px-6">
 		<StarIcon class="mx-auto mb-8 h-10 w-10 text-white/20" />
-		<h2 class="font-display text-5xl text-white md:text-6xl">Ready to Build?</h2>
+		<h2 class="font-display text-5xl text-white md:text-6xl">Come to the Next One</h2>
 		<p class="mx-auto mt-6 max-w-xl text-lg text-white/60">
-			Join our next gathering and connect with Chicago's builders.
+			Check out upcoming gatherings and RSVP.
 		</p>
 		<div class="mt-10">
 			<Button href="https://lu.ma/chicago-builders">
