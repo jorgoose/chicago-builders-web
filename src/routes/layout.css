@@ -1,0 +1,117 @@
+@import 'tailwindcss';
+
+/* ===== DESIGN TOKENS ===== */
+@theme {
+	/* Colors - Stark Black & White */
+	--color-background-deep: #000000;
+	--color-background-base: #000000;
+	--color-background-elevated: #0a0a0a;
+	--color-surface: rgb(255 255 255 / 0.05);
+	--color-surface-hover: rgb(255 255 255 / 0.1);
+	--color-foreground: #ffffff;
+	--color-foreground-muted: #888888;
+	--color-foreground-subtle: rgb(255 255 255 / 0.4);
+	--color-accent: #ffffff;
+	--color-border-default: rgb(255 255 255 / 0.15);
+	--color-border-hover: rgb(255 255 255 / 0.3);
+
+	/* Font Family */
+	--font-display: 'Bebas Neue', 'Impact', 'Arial Narrow', sans-serif;
+	--font-sans: 'Inter', system-ui, sans-serif;
+	--font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+
+	/* Animations */
+	--animate-fade-in: fade-in 0.4s ease-out forwards;
+	--animate-fade-up: fade-up 0.5s ease-out forwards;
+}
+
+/* ===== KEYFRAME ANIMATIONS ===== */
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fade-up {
+	from {
+		opacity: 0;
+		transform: translateY(16px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* ===== BASE STYLES ===== */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--font-sans);
+	background-color: #000;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+	background-color: #fff;
+	color: #000;
+}
+
+/* Focus ring */
+.focus-ring {
+	outline: none;
+}
+.focus-ring:focus-visible {
+	box-shadow:
+		0 0 0 2px #000,
+		0 0 0 4px #fff;
+}
+
+/* ===== DISPLAY TYPOGRAPHY ===== */
+.font-display {
+	font-family: var(--font-display);
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+	font-weight: 400;
+}
+
+/* ===== ASCII ART ===== */
+.ascii-art {
+	font-family: var(--font-mono);
+	font-size: 8px;
+	line-height: 1.15;
+	white-space: pre;
+	color: rgb(255 255 255 / 0.35);
+	user-select: none;
+	letter-spacing: 0;
+}
+
+@media (min-width: 640px) {
+	.ascii-art {
+		font-size: 10px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.ascii-art {
+		font-size: 11px;
+	}
+}
+
+/* ===== REDUCED MOTION ===== */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+	}
+}
