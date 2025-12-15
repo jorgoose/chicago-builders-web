@@ -5,12 +5,12 @@
 		{
 			title: 'Builders First',
 			description:
-				'A space for those who get their hands dirty—coding, designing, making. The common thread is the act of creation.'
+				'A space for those who get their hands dirty - coding, designing, making. The common thread is the act of creation.'
 		},
 		{
 			title: 'Community Over Transactions',
 			description:
-				'Long-term relationships over short-term sales. Friends, co-founders, and peers—not clients.'
+				'Long-term relationships over short-term sales. Friends, co-founders, and peers - not clients.'
 		},
 		{
 			title: 'Open & Collaborative',
@@ -84,7 +84,7 @@
 		<div class="max-w-2xl animate-fade-up" style="animation-delay: 0.1s;">
 			<p class="text-lg leading-relaxed text-white/60 md:text-xl">
 				A social club for the city's engineers, designers, founders, and tinkers. No business cards,
-				no sales pitches—just builders.
+				no sales pitches - just builders.
 			</p>
 		</div>
 
