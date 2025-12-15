@@ -228,6 +228,12 @@
 
 			<div class="flex items-center gap-6">
 				<a
+					href="/details"
+					class="text-sm text-white/60 transition-colors hover:text-white"
+				>
+					Details
+				</a>
+				<a
 					href="https://lu.ma/chicago-builders"
 					target="_blank"
 					rel="noopener noreferrer"

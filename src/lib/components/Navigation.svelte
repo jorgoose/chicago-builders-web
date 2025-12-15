@@ -11,7 +11,8 @@
 	const navLinks = [
 		{ label: 'About', href: '#about' },
 		{ label: 'Philosophy', href: '#philosophy' },
-		{ label: 'Community', href: '#community' }
+		{ label: 'Community', href: '#community' },
+		{ label: 'Details', href: '/details' }
 	];
 </script>
 
