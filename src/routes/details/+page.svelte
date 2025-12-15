@@ -13,7 +13,7 @@
 				'Live coding, pair programming, debugging together. Bring your laptop and work alongside other builders.'
 		},
 		{
-			title: 'Shop Talk',
+			title: 'Share Ideas',
 			description:
 				'Informal conversations about architecture decisions, tech stacks, what\'s working, what\'s not. No formal agenda, just real talk between makers.'
 		},
@@ -118,7 +118,7 @@
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">At the Meetups</h2>
 			<p class="mt-6 max-w-3xl text-lg leading-relaxed text-white/60">
 				Think Homebrew Computer Club: show what you're building, share your process, get feedback
-				from other makers. No formal presentations, no pitch decks - just builders talking shop.
+				from other makers. No formal presentations, no pitch decks - just builders sharing ideas.
 			</p>
 		</div>
 

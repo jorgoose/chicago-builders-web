@@ -135,7 +135,7 @@
 					<div>
 						<h3 class="font-display text-2xl text-white">What We're About</h3>
 						<p class="mt-3 leading-relaxed text-white/60">
-							Give people in Chicago who are building things a regular place to meet, hang out, and talk shop. That's it.
+							Give people in Chicago who are building things a regular place to meet, hang out, and share ideas. That's it.
 						</p>
 					</div>
 				</div>
@@ -190,7 +190,7 @@
 		<h2 class="mt-4 font-display text-5xl text-white md:text-6xl lg:text-7xl">
 			Just Hang Out
 			<br />
-			<span class="text-white/60">And Talk Shop</span>
+			<span class="text-white/60">And Share Ideas</span>
 		</h2>
 		<p class="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-white/60">
 			We meet regularly around downtown Chicago. No agenda. Bring your laptop if you want to show what you're working on, or just come grab a drink and meet people.
