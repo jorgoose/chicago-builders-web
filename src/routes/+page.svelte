@@ -162,7 +162,7 @@
 		<div class="grid gap-px bg-white/10 sm:grid-cols-2">
 			{#each philosophy as item, i (item.title)}
 				<div class="bg-black p-8 md:p-10">
-					<span class="font-mono text-sm text-white/30">{String(i # 1).padStart(2, '0')}</span>
+					<span class="font-mono text-sm text-white/30">{String(i + 1).padStart(2, '0')}</span>
 					<h3 class="mt-4 font-display text-2xl text-white md:text-3xl">{item.title}</h3>
 					<p class="mt-4 leading-relaxed text-white/50">{item.description}</p>
 				</div>
