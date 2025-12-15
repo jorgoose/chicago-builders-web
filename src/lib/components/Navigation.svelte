@@ -38,7 +38,7 @@
 
 		<!-- Desktop CTA -->
 		<div class="hidden md:block">
-			<Button href="https://lu.ma/chicago-builders">Join Us</Button>
+			<Button href="https://luma.com/calendar/cal-JeGvjPYX6BpxKfp?period=past">Join Us</Button>
 		</div>
 
 		<!-- Mobile Menu Toggle -->
@@ -74,7 +74,7 @@
 					</a>
 				{/each}
 				<div class="mt-4">
-					<Button href="https://lu.ma/chicago-builders" class="w-full">Join Us</Button>
+					<Button href="https://luma.com/calendar/cal-JeGvjPYX6BpxKfp?period=past" class="w-full">Join Us</Button>
 				</div>
 			</div>
 		</div>
