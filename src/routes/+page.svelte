@@ -244,7 +244,7 @@
 					Events
 				</a>
 				<a
-					href="mailto:hello@chicagobuilders.club"
+					href="mailto:contact.jorgensen@gmail.com"
 					class="text-sm text-white/40 transition-colors hover:text-white"
 				>
 					Contact
