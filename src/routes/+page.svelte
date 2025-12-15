@@ -101,7 +101,7 @@
 
 	<!-- Star decoration -->
 	<div class="absolute right-6 bottom-12 md:right-12">
-		<StarIcon class="h-8 w-8 text-white/20 md:h-12 md:w-12" />
+		<StarIcon class="h-8 w-8 text-white/30 md:h-12 md:w-12" />
 	</div>
 </section>
 
@@ -114,7 +114,7 @@
 				<h2 class="mt-4 font-display text-5xl text-white md:text-6xl lg:text-7xl">
 					A Place to Meet
 					<br />
-					<span class="text-white/40">Other Makers</span>
+					<span class="text-white/60">Other Makers</span>
 				</h2>
 			</div>
 			<div class="flex flex-col justify-center">
@@ -131,7 +131,7 @@
 		<div class="mt-20">
 			<Card class="max-w-3xl">
 				<div class="flex items-start gap-4">
-					<StarIcon class="mt-1 h-5 w-5 shrink-0 text-white/40" />
+					<StarIcon class="mt-1 h-5 w-5 shrink-0 text-white/60" />
 					<div>
 						<h3 class="font-display text-2xl text-white">What We're About</h3>
 						<p class="mt-3 leading-relaxed text-white/60">
@@ -155,7 +155,7 @@
 		<div class="grid gap-px bg-white/10 sm:grid-cols-2">
 			{#each philosophy as item, i (item.title)}
 				<div class="bg-black p-8 md:p-10">
-					<span class="font-mono text-sm text-white/30">{String(i + 1).padStart(2, '0')}</span>
+					<span class="font-mono text-sm text-white/60">{String(i + 1).padStart(2, '0')}</span>
 					<h3 class="mt-4 font-display text-2xl text-white md:text-3xl">{item.title}</h3>
 					<p class="mt-4 leading-relaxed text-white/50">{item.description}</p>
 				</div>
@@ -190,7 +190,7 @@
 		<h2 class="mt-4 font-display text-5xl text-white md:text-6xl lg:text-7xl">
 			Just Hang Out
 			<br />
-			<span class="text-white/40">And Talk Shop</span>
+			<span class="text-white/60">And Talk Shop</span>
 		</h2>
 		<p class="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-white/60">
 			We meet regularly around downtown Chicago. No agenda. Bring your laptop if you want to show what you're working on, or just come grab a drink and meet people.
@@ -201,7 +201,7 @@
 <!-- CTA Section -->
 <section class="border-t border-white/10 py-24 md:py-32">
 	<div class="mx-auto max-w-4xl px-4 text-center md:px-6">
-		<StarIcon class="mx-auto mb-8 h-10 w-10 text-white/20" />
+		<StarIcon class="mx-auto mb-8 h-10 w-10 text-white/30" />
 		<h2 class="font-display text-5xl text-white md:text-6xl">Come to the Next One</h2>
 		<p class="mx-auto mt-6 max-w-xl text-lg text-white/60">
 			Check out upcoming gatherings and RSVP.
@@ -222,7 +222,7 @@
 	<div class="mx-auto max-w-6xl px-4 md:px-6">
 		<div class="flex flex-col items-center justify-between gap-6 md:flex-row">
 			<div class="flex items-center gap-3">
-				<StarIcon class="h-4 w-4 text-white/40" />
+				<StarIcon class="h-4 w-4 text-white/60" />
 				<span class="font-display text-lg text-white/60">Chicago Builders</span>
 			</div>
 
@@ -231,19 +231,19 @@
 					href="https://lu.ma/chicago-builders"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="text-sm text-white/40 transition-colors hover:text-white"
+					class="text-sm text-white/60 transition-colors hover:text-white"
 				>
 					Events
 				</a>
 				<a
 					href="mailto:contact.jorgensen@gmail.com"
-					class="text-sm text-white/40 transition-colors hover:text-white"
+					class="text-sm text-white/60 transition-colors hover:text-white"
 				>
 					Contact
 				</a>
 			</div>
 
-			<p class="text-sm text-white/30">© {new Date().getFullYear()}</p>
+			<p class="text-sm text-white/60">© {new Date().getFullYear()}</p>
 		</div>
 	</div>
 </footer>
