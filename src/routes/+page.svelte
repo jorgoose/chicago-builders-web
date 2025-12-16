@@ -237,6 +237,14 @@
 					Events
 				</a>
 				<a
+					href="https://www.instagram.com/chicagobuilders/"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="text-sm text-white/60 transition-colors hover:text-white"
+				>
+					Instagram
+				</a>
+				<a
 					href="mailto:contact.jorgensen@gmail.com"
 					class="text-sm text-white/60 transition-colors hover:text-white"
 				>
