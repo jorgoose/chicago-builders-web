@@ -81,7 +81,7 @@
 <!-- Hero Section -->
 <section class="relative flex min-h-[60vh] flex-col justify-center px-4 pt-20 md:px-6">
 	<div class="mx-auto w-full max-w-6xl">
-		<div class="mb-8 animate-fade-up">
+		<div class="mb-8 opacity-0 animate-fade-up">
 			<h1
 				class="font-display text-[clamp(3rem,12vw,8rem)] leading-[0.85] tracking-tight text-white"
 			>
@@ -91,13 +91,13 @@
 			</h1>
 		</div>
 
-		<div class="max-w-2xl animate-fade-up" style="animation-delay: 0.1s;">
+		<div class="max-w-2xl opacity-0 animate-fade-up" style="animation-delay: 0.1s;">
 			<p class="text-lg leading-relaxed text-white/60 md:text-xl">
 				Everything you need to know about Chicago Builders. What happens when we meet, who belongs here, and who doesn't.
 			</p>
 		</div>
 
-		<div class="mt-10 flex animate-fade-up items-center gap-4" style="animation-delay: 0.2s;">
+		<div class="mt-10 flex opacity-0 animate-fade-up items-center gap-4" style="animation-delay: 0.2s;">
 			<Button href="https://lu.ma/chicag-builders">
 				Join Our Next Event
 				<svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
