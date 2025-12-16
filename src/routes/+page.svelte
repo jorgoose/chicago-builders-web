@@ -65,7 +65,7 @@
 <section class="relative flex min-h-screen flex-col justify-center px-4 pt-20 md:px-6">
 	<div class="mx-auto w-full max-w-6xl">
 		<!-- Main headline -->
-		<div class="mb-8 animate-fade-up">
+		<div class="mb-4 animate-fade-up">
 			<h1
 				class="font-display text-[clamp(3.5rem,15vw,12rem)] leading-[0.85] tracking-tight text-white"
 			>
@@ -77,7 +77,7 @@
 
 		<!-- ASCII Icons -->
 		<div class="mb-12 overflow-hidden" aria-hidden="true">
-			<pre class="ascii-art w-full text-[0.5rem] sm:text-xs md:text-lg lg:text-xl">{iconSymbols}</pre>
+			<pre class="ascii-art w-full text-[clamp(0.3rem,8vw,1.25rem)]">{iconSymbols}</pre>
 		</div>
 
 		<!-- Tagline -->
@@ -97,11 +97,6 @@
 			</Button>
 			<Button href="#about" variant="secondary">Learn More</Button>
 		</div>
-	</div>
-
-	<!-- Star decoration -->
-	<div class="absolute right-6 bottom-12 md:right-12">
-		<StarIcon class="h-8 w-8 text-white/30 md:h-12 md:w-12" />
 	</div>
 </section>
 
