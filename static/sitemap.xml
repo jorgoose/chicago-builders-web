@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://chicagobuilders.com/</loc>
+    <loc>https://chicagobuilders.io/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://chicagobuilders.com/details</loc>
+    <loc>https://chicagobuilders.io/details</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://chicagobuilders.com/why-chicago</loc>
+    <loc>https://chicagobuilders.io/why-chicago</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

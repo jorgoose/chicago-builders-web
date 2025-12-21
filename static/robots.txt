@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://chicagobuilders.com/sitemap.xml
+Sitemap: https://chicagobuilders.io/sitemap.xml
