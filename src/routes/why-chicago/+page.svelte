@@ -19,11 +19,11 @@
 	const chicagoTraits = [
 		{
 			title: 'Born from Necessity',
-			description: 'The city burned down and we rebuilt it better. Then we invented the skyscraper because we had to. Chicago\'s DNA is solving real problems when they actually need solving.'
+			description: 'The city burned down and we rebuilt it better. Then we invented the skyscraper because we had to. That\'s how it works here. Problems show up, people fix them.'
 		},
 		{
 			title: 'Where Things Actually Work',
-			description: 'Railroad hub. Manufacturing center. Commerce crossroads. This has always been where infrastructure meets real needs. Where solutions have to function, not just demo well.'
+			description: 'Railroad hub. Manufacturing center. Commerce crossroads. This has always been where things actually have to work. Not just look good in a demo.'
 		},
 		{
 			title: 'Substance Over Story',
@@ -38,15 +38,15 @@
 	const whyItMatters = [
 		{
 			title: 'Closer to Real Problems',
-			description: 'Outside the coastal bubble, you\'re closer to the problems most people actually face. Less trend-chasing, more genuine impact.'
+			description: 'Outside the coastal bubble, you\'re closer to the problems most people actually face. Less trend-chasing. More actually helping people.'
 		},
 		{
-			title: 'Cross-Disciplinary Solutions',
-			description: 'Hardware people, industrial designers, architects, engineers. Real problems don\'t respect discipline boundaries. Chicago brings different expertise together.'
+			title: 'All Kinds of People',
+			description: 'Hardware people, industrial designers, architects, engineers. Real problems don\'t care what your job title is. Chicago has all of them in the same room.'
 		},
 		{
-			title: 'Aligned Incentives',
-			description: 'When you\'re not all competing for the same VC dollars, you can actually collaborate. The goal becomes solving the problem, not winning the round.'
+			title: 'People Actually Help Each Other',
+			description: 'When you\'re not all competing for the same VC money, you can actually work together. The goal is solving the problem, not winning the funding round.'
 		}
 	];
 </script>
@@ -130,7 +130,7 @@
 				<span class="text-white/60">Different</span>
 			</h2>
 			<p class="mt-6 max-w-3xl text-lg leading-relaxed text-white/60">
-				Not optimized for fundraising. Optimized for function. This city has always been about solving problems that need solving, not problems that sound good in a pitch deck.
+				Not built for fundraising. Built to work. This city has always been about solving problems that need solving, not problems that sound good in a pitch deck.
 			</p>
 		</div>
 
@@ -163,10 +163,10 @@
 					New York is a global city. San Francisco is a company town for venture capital. Chicago is where America's problems actually get solved. Diverse, industrial, practical, connected to reality.
 				</p>
 				<p class="mt-6 text-lg leading-relaxed text-white/60">
-					The architecture here wasn't imported. It was invented out of necessity. The Chicago School was about form following function, innovation because the situation demanded it. Real solutions for real constraints.
+					The city burned down in 1871. All of it. And instead of waiting for help, Chicago rebuilt itself. Invented the skyscraper along the way. Not as some grand statement, but because land was expensive and buildings needed to go up instead of out.
 				</p>
 				<p class="mt-6 text-lg leading-relaxed text-white/60">
-					When the railroads needed to connect a nation, they connected here. When manufacturing needed to feed the world, it scaled here. Chicago has always been where problems meet solutions, not where solutions go looking for problems.
+					Same story with everything else. The railroads, the stockyards, the factories. If something needed to move across America, it came through here. You don't become the crossroads of a continent without learning how to actually get things done.
 				</p>
 			</div>
 		</div>
@@ -180,7 +180,7 @@
 			<SectionLabel>Why It Matters</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">For Problem Solvers</h2>
 			<p class="mt-6 max-w-3xl text-lg leading-relaxed text-white/60">
-				The place shapes the culture. When you're surrounded by real industry and real needs, you naturally orient toward real solutions.
+				The place shapes the people. When you're surrounded by real industry and real needs, you start thinking about real solutions.
 			</p>
 		</div>
 
@@ -207,10 +207,13 @@
 				<div>
 					<h3 class="font-display text-2xl text-white">The Point</h3>
 					<p class="mt-4 leading-relaxed text-white/60">
-						Chicago Builders exists because Chicago exists. The ethos of this community (no sales pitches, no recruiting, just people solving real problems) isn't something we invented. It's just what this city is like. We're a community that reflects the place.
+						Chicago Builders exists because Chicago exists. The ethos of this community (no sales pitches, no recruiting, just people solving real problems) isn't something we invented. It's just what this city is like.
 					</p>
 					<p class="mt-4 leading-relaxed text-white/60">
-						If you're here and you're working on something that matters, you already get it. The city selected for you.
+						You only get one life. Most of us realized at some point that we didn't want to spend it making software for other people who make software. We wanted to contribute something real. To push things forward for actual people. Build something that makes life a little better, not just a little more convenient.
+					</p>
+					<p class="mt-4 leading-relaxed text-white/60">
+						If you're here and you're working on something like that, you already get it. This is your people.
 					</p>
 				</div>
 			</div>
