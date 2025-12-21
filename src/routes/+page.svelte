@@ -229,6 +229,12 @@
 					Details
 				</a>
 				<a
+					href="/why-chicago"
+					class="text-sm text-white/60 transition-colors hover:text-white"
+				>
+					Why Chicago
+				</a>
+				<a
 					href="https://lu.ma/chicag-builders"
 					target="_blank"
 					rel="noopener noreferrer"
