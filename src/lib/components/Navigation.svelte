@@ -9,9 +9,9 @@
 	}
 
 	const navLinks = [
-		{ label: 'About', href: '#about' },
-		{ label: 'Philosophy', href: '#philosophy' },
-		{ label: 'Community', href: '#community' },
+		{ label: 'About', href: '/#about' },
+		{ label: 'Philosophy', href: '/#philosophy' },
+		{ label: 'Community', href: '/#community' },
 		{ label: 'Details', href: '/details' },
 		{ label: 'Why Chicago', href: '/why-chicago' }
 	];
