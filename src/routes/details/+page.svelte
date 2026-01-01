@@ -98,7 +98,7 @@
 		</div>
 
 		<div class="mt-10 flex opacity-0 animate-fade-up items-center gap-4" style="animation-delay: 0.2s;">
-			<Button href="https://lu.ma/chicag-builders">
+			<Button href="https://luma.com/chicago-builders">
 				Join Our Next Event
 				<svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
 					<path d="M5 12h14M12 5l7 7-7 7" />
@@ -202,7 +202,7 @@
 			Check out the next meetup and RSVP if it sounds like your kind of thing.
 		</p>
 		<div class="mt-10">
-			<Button href="https://lu.ma/chicag-builders">
+			<Button href="https://luma.com/chicago-builders">
 				View Upcoming Events
 				<svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
 					<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
@@ -235,7 +235,7 @@
 					Why Chicago
 				</a>
 				<a
-					href="https://lu.ma/chicag-builders"
+					href="https://luma.com/chicago-builders"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="text-sm text-white/60 transition-colors hover:text-white"

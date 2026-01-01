@@ -39,7 +39,7 @@
 
 		<!-- Desktop CTA -->
 		<div class="hidden md:block">
-			<Button href="https://lu.ma/chicag-builders">Join Us</Button>
+			<Button href="https://luma.com/chicago-builders">Join Us</Button>
 		</div>
 
 		<!-- Mobile Menu Toggle -->
@@ -75,7 +75,7 @@
 					</a>
 				{/each}
 				<div class="mt-4">
-					<Button href="https://lu.ma/chicag-builders" class="w-full">Join Us</Button>
+					<Button href="https://luma.com/chicago-builders" class="w-full">Join Us</Button>
 				</div>
 			</div>
 		</div>
