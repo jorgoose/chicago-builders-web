@@ -152,12 +152,12 @@
 		<div class="mb-16 max-w-3xl">
 			<SectionLabel>The Numbers</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">
-				Most Diversified
+				Actually
 				<br />
-				<span class="text-white/60">Major Economy</span>
+				<span class="text-white/60">Builds Things</span>
 			</h2>
 			<p class="mt-6 text-lg leading-relaxed text-white/60">
-				San Francisco's top two industries make up 38% of its economy. New York's make up 44%. Chicago's? Just 25%. No single industry here accounts for more than 13% of GDP.
+				New York's economy is 29% finance. San Francisco's top three sectors are all white-collar services. Chicago? We still make stuff. Manufacturing is 12% of our economy—nearly 4x San Francisco's share.
 			</p>
 		</div>
 
