@@ -5,22 +5,22 @@
 		{
 			title: 'Builders First',
 			description:
-				'For people who make things - code, designs, products. Doing is the common thread.'
+				'You make things. Code, hardware, designs, products—whatever. That\'s the only thing we all have in common, and it\'s enough.'
 		},
 		{
 			title: 'Community Over Transactions',
 			description:
-				'Build real relationships with other makers. This isn\'t a lead-gen event.'
+				'We actually want to know what you\'re working on. Nobody\'s here collecting business cards or fishing for intros.'
 		},
 		{
 			title: 'Open & Collaborative',
 			description:
-				'Share ideas, get feedback, meet people outside your usual circles. The backend engineer should meet the industrial designer.'
+				'The best conversations happen when a backend engineer ends up talking to an industrial designer. We like those collisions.'
 		},
 		{
 			title: 'Casual & Real',
 			description:
-				'No polished panels or pitch decks. Just honest conversations about what you\'re building.'
+				'Show up, grab a drink, talk about what you\'re building. That\'s the whole format.'
 		}
 	];
 
@@ -28,17 +28,17 @@
 		{
 			title: 'Working on Something',
 			description:
-				'Software engineers, designers, and product people building side projects, startups, or open source.'
+				'You\'ve got a side project, a startup, or an open source thing you can\'t stop thinking about. You want to show someone.'
 		},
 		{
 			title: 'Want to Start Something',
 			description:
-				'People looking to get into making things and want to meet others doing it.'
+				'You haven\'t built anything yet but you want to. Being around people who are doing it helps.'
 		},
 		{
 			title: 'Looking for Collaborators',
 			description:
-				'Need a co-founder, technical help, design feedback, or just another set of eyes on what you\'re building.'
+				'You need a co-founder, a design eye, or just someone to tell you if your idea is dumb. Hard to find those people at regular networking events.'
 		}
 	];
 
@@ -83,7 +83,7 @@
 		<!-- Tagline -->
 		<div class="max-w-2xl animate-fade-up" style="animation-delay: 0.1s;">
 			<p class="text-lg leading-relaxed text-white/60 md:text-xl">
-				A social club for Chicago's engineers, designers, and founders. No sales pitches, no recruiting - just people making things.
+				A social club for Chicago's engineers, designers, and founders. We hang out, show each other what we're building, and occasionally help each other figure stuff out.
 			</p>
 		</div>
 
@@ -114,10 +114,10 @@
 			</div>
 			<div class="flex flex-col justify-center">
 				<p class="text-lg leading-relaxed text-white/60">
-					Chicago has plenty of networking events. This isn't one of them.
+					Most tech events in Chicago are networking events. You know the vibe—everyone scanning the room for useful contacts.
 				</p>
 				<p class="mt-6 text-lg leading-relaxed text-white/60">
-					We host casual gatherings for people building things - startups, side projects, open source, whatever. Come meet other makers, talk about what you're working on, and maybe find someone to collaborate with.
+					We wanted something different. A place where people actually talk about what they're making. Side projects, startups, weird experiments. You show up, you meet people, sometimes you end up collaborating on something. It's pretty simple.
 				</p>
 			</div>
 		</div>
@@ -130,7 +130,7 @@
 					<div>
 						<h3 class="font-display text-2xl text-white">What We're About</h3>
 						<p class="mt-3 leading-relaxed text-white/60">
-							Give people in Chicago who are building things a regular place to meet, hang out, and share ideas. That's it.
+							We give builders in Chicago a regular place to meet up. That's really the whole idea. No grand mission statement.
 						</p>
 					</div>
 				</div>
@@ -188,7 +188,7 @@
 			<span class="text-white/60">And Share Ideas</span>
 		</h2>
 		<p class="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-white/60">
-			We meet regularly around downtown Chicago. No agenda. Bring your laptop if you want to show what you're working on, or just come grab a drink and meet people.
+			We meet every few weeks around downtown. Bring your laptop if you want to demo something, or just show up and see what everyone else is working on. There's no agenda. Honestly we're mostly just hanging out.
 		</p>
 	</div>
 </section>
@@ -199,7 +199,7 @@
 		<StarIcon class="mx-auto mb-8 h-10 w-10 text-white/30" />
 		<h2 class="font-display text-5xl text-white md:text-6xl">Come to the Next One</h2>
 		<p class="mx-auto mt-6 max-w-xl text-lg text-white/60">
-			Check out upcoming gatherings and RSVP.
+			See when we're meeting up next.
 		</p>
 		<div class="mt-10">
 			<Button href="https://luma.com/chicago-builders">

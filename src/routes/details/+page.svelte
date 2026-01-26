@@ -5,22 +5,22 @@
 		{
 			title: 'Show Your Work',
 			description:
-				'Bring what you\'re building and walk people through it. Could be a prototype, a feature you shipped last week, or an open source project. Show the code, explain your choices.'
+				'Bring whatever you\'re working on. A prototype, something you shipped last week, a side project that\'s been eating your weekends. Pull up the code if you want. People here actually like looking at code.'
 		},
 		{
 			title: 'Work Together',
 			description:
-				'Sometimes we code together. Debug a problem, pair program on something interesting, or just hack on projects side by side. Bring your laptop.'
+				'Sometimes we end up debugging stuff together or pair programming on something interesting. Bring your laptop. Or don\'t—you can just watch and hang out.'
 		},
 		{
 			title: 'Technical Conversations',
 			description:
-				'Talk about the stuff that matters - why you chose that framework, how you\'re handling deployment, what challenges you\'re facing. Real problems, real solutions.'
+				'We talk about the actual work. Why you picked that stack, what\'s broken, what you\'re stuck on. Nobody\'s going to pitch you their framework hot take.'
 		},
 		{
 			title: 'Find Collaborators',
 			description:
-				'Meet people working on different things. Get feedback on your approach, find someone to build with, or just learn from how others work.'
+				'Good way to meet people working on different stuff. Sometimes you find someone who wants to help. Sometimes you just learn how other people approach problems.'
 		}
 	];
 
@@ -28,17 +28,17 @@
 		{
 			title: 'Making Something',
 			description:
-				'You\'re building something - an app, a tool, a product. Maybe it\'s a side project, maybe it\'s your startup. Point is, you\'re actively working on it.'
+				'You\'re building something. Could be an app, a hardware project, a startup. Could be something weird you can\'t explain yet. The point is you\'re actually doing it.'
 		},
 		{
 			title: 'Understands the Tech',
 			description:
-				'You know what\'s under the hood. You can talk about your architecture, explain your code, show your repository. You\'re not afraid to get technical.'
+				'You know what\'s going on under the hood. You can pull up your repo and explain what you did. You won\'t get lost if the conversation gets technical.'
 		},
 		{
 			title: 'Wants Real Feedback',
 			description:
-				'You\'re looking for honest technical discussion, not validation. You want to learn from other builders and share what you\'ve figured out.'
+				'You want people to tell you what\'s wrong with your approach, not just nod along. You\'re here to learn, not to get your ego stroked.'
 		}
 	];
 
@@ -47,25 +47,25 @@
 			icon: '❌',
 			title: 'Raising Money',
 			description:
-				'Not a pitch night. If you\'re here to meet investors or get funding, that\'s not what this is about.'
+				'We\'re not a pitch event. If you\'re looking to meet investors, there are better places for that.'
 		},
 		{
 			icon: '❌',
 			title: 'Hiring or Job Hunting',
 			description:
-				'This isn\'t for recruiting or job searching. Don\'t come to fill a role or find one. Keep it about the work, not the job market.'
+				'Please don\'t come looking to fill roles or find a job. We want conversations about the work, not the job market.'
 		},
 		{
 			icon: '❌',
 			title: 'Selling Services',
 			description:
-				'No agency pitches, no consulting offers. If you\'re trying to get clients or push your services, this isn\'t the place.'
+				'No agency pitches, no consulting offers. If you\'re trying to land clients, you\'ll have a bad time here.'
 		},
 		{
 			icon: '❌',
 			title: 'Promoting Your Product',
 			description:
-				'Not here to gain users or push your SaaS. Come to share what you\'re building, not to market it.'
+				'We\'re not your user acquisition channel. Come to talk about what you\'re building, not to market it.'
 		}
 	];
 </script>
@@ -93,7 +93,7 @@
 
 		<div class="max-w-2xl opacity-0 animate-fade-up" style="animation-delay: 0.1s;">
 			<p class="text-lg leading-relaxed text-white/60 md:text-xl">
-				Everything you need to know about Chicago Builders. What happens when we meet, who belongs here, and who doesn't.
+				Here's the full picture. What actually happens at these things, who they're for, and who should probably skip them.
 			</p>
 		</div>
 
@@ -116,7 +116,7 @@
 			<SectionLabel>What Happens</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">At the Meetups</h2>
 			<p class="mt-6 max-w-3xl text-lg leading-relaxed text-white/60">
-				It's informal and flexible. Sometimes people demo what they're working on, sometimes we code together, sometimes it's just conversations about technical challenges. No rigid structure, just whatever's useful.
+				Honestly it varies. Sometimes people demo their projects, sometimes we end up pair programming, sometimes everyone just sits around talking about whatever problem they're stuck on. There's no script.
 			</p>
 		</div>
 
@@ -138,7 +138,7 @@
 			<SectionLabel>Who It's For</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">People Building Things</h2>
 			<p class="mt-6 max-w-3xl text-lg leading-relaxed text-white/60">
-				You're working on something real. Doesn't matter if it's a side project you started last month or a company you've been running for years. What matters is you're actually making something, not just thinking about it.
+				You're working on something. Could be a thing you started last weekend, could be a company. Doesn't really matter how far along you are. What matters is you're actually building it.
 			</p>
 		</div>
 
@@ -163,7 +163,7 @@
 			<SectionLabel>Who It's Not For</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">Not For Everyone</h2>
 			<p class="mt-6 max-w-3xl text-lg leading-relaxed text-white/60">
-				We keep this focused on people making things. That means some folks won't find what they're looking for here, and that's okay. Better to be clear upfront.
+				We want to keep this focused. That means some people will show up and realize it's not their thing. Better to know ahead of time.
 			</p>
 		</div>
 
@@ -184,7 +184,7 @@
 					<div>
 						<h3 class="font-display text-xl text-white">Still Unsure?</h3>
 						<p class="mt-3 leading-relaxed text-white/60">
-							If you're making something and want to talk about it with other people who are also making things, you'll probably fit right in. Just show up.
+							If you're working on something and want to talk to other people who are too, just come. You'll figure out pretty quickly if it's your kind of thing.
 						</p>
 					</div>
 				</div>
@@ -199,7 +199,7 @@
 		<StarIcon class="mx-auto mb-8 h-10 w-10 text-white/30" />
 		<h2 class="font-display text-5xl text-white md:text-6xl">See You There</h2>
 		<p class="mx-auto mt-6 max-w-xl text-lg text-white/60">
-			Check out the next meetup and RSVP if it sounds like your kind of thing.
+			If this sounds like your kind of thing, come to the next one.
 		</p>
 		<div class="mt-10">
 			<Button href="https://luma.com/chicago-builders">

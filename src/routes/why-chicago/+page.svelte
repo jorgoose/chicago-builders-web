@@ -1,52 +1,52 @@
 <script lang="ts">
-	import { Button, Card, SectionLabel, StarIcon } from '$lib/components';
+	import { Button, Card, CityComparison, SectionLabel, StarIcon } from '$lib/components';
 
 	const contrasts = [
 		{
 			city: 'San Francisco',
-			problem: 'Optimizing for metrics that don\'t matter. Building features for other tech workers. Solving problems that only exist inside a very specific bubble.',
+			problem: 'Everyone\'s building for other people in tech. The problems being "solved" only exist inside a very specific bubble. You start to lose track of what normal people actually need.',
 		},
 		{
 			city: 'New York',
-			problem: 'Everything filtered through finance and media. Success measured in exits and headlines. The work becomes secondary to the story about the work.',
+			problem: 'Everything runs through finance and media. Success means exits and press coverage. At some point the story about the work becomes more important than the work.',
 		},
 		{
 			city: 'Austin / Miami',
-			problem: 'Imported scenes chasing the same playbook. Tax arbitrage dressed up as innovation. The problems being solved are "how do I get funded" not "how do I help people."',
+			problem: 'Tax arbitrage dressed up as a scene. People moved there to run the same playbook somewhere cheaper. The main problem being solved is "how do I get funded."',
 		}
 	];
 
 	const chicagoTraits = [
 		{
 			title: 'Born from Necessity',
-			description: 'The city burned down and we rebuilt it better. Then we invented the skyscraper because we had to. That\'s how it works here. Problems show up, people fix them.'
+			description: 'The city burned down in 1871. We rebuilt it and invented the skyscraper while we were at it. That\'s kind of how things work here—problems show up, people fix them.'
 		},
 		{
 			title: 'Where Things Actually Work',
-			description: 'Railroad hub. Manufacturing center. Commerce crossroads. This has always been where things actually have to work. Not just look good in a demo.'
+			description: 'Still the #1 or #2 manufacturing metro in the US. Still the nation\'s freight hub. This is where stuff actually has to function. Nobody here is impressed by a demo that only works on stage.'
 		},
 		{
 			title: 'Substance Over Story',
-			description: 'Midwest directness means less performance, more delivery. People here don\'t tell you how important they are. They show you what they\'ve solved.'
+			description: 'Midwest directness. People don\'t spend a lot of time telling you how important they are. They just show you what they built.'
 		},
 		{
 			title: 'Freedom to Solve Real Problems',
-			description: 'You can afford to live here and work on what matters. No VC funding required just to survive. That means you can solve problems worth solving, not just fundable ones.'
+			description: 'You can actually afford to live here and work on what you want. You don\'t need VC money just to pay rent. That changes what you end up building.'
 		}
 	];
 
 	const whyItMatters = [
 		{
 			title: 'Closer to Real Problems',
-			description: 'Outside the coastal bubble, you\'re closer to the problems most people actually face. Less trend-chasing. More actually helping people.'
+			description: 'When you\'re not surrounded by tech people all day, you stay connected to what normal people actually need. It\'s harder to disappear up your own ass.'
 		},
 		{
 			title: 'All Kinds of People',
-			description: 'Hardware people, industrial designers, architects, engineers. Real problems don\'t care what your job title is. Chicago has all of them in the same room.'
+			description: 'Finance people, manufacturing engineers, healthcare folks, logistics operators, software people. They\'re all here in roughly equal numbers, and they actually talk to each other. That\'s how interesting stuff gets built.'
 		},
 		{
 			title: 'People Actually Help Each Other',
-			description: 'When you\'re not all competing for the same VC money, you can actually work together. The goal is solving the problem, not winning the funding round.'
+			description: 'Nobody\'s competing for the same VC money, so people share what they know. The vibe is collaborative in a way that\'s hard to find on the coasts.'
 		}
 	];
 </script>
@@ -75,7 +75,7 @@
 
 		<div class="max-w-3xl opacity-0 animate-fade-up" style="animation-delay: 0.1s;">
 			<p class="text-xl leading-relaxed text-white/60 md:text-2xl">
-				This isn't arbitrary. Chicago is the point. A city where people solve real problems for real people, not imaginary problems for imaginary users. Where you can afford to work on what matters.
+				We didn't pick Chicago because it was convenient. We picked it because something about this city makes you want to build things that actually matter. Also you can afford rent.
 			</p>
 		</div>
 
@@ -98,7 +98,7 @@
 			<SectionLabel>The Problem</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">Tech Lost the Plot</h2>
 			<p class="mt-6 text-lg leading-relaxed text-white/60">
-				Somewhere along the way, tech stopped being about solving problems that matter. The coasts optimized for fundability, not usefulness. For metrics, not meaning.
+				At some point, tech stopped being about solving problems that matter. The coasts optimized for fundability instead of usefulness. Metrics instead of meaning. Everyone knows this but nobody seems to leave.
 			</p>
 		</div>
 
@@ -113,7 +113,7 @@
 
 		<div class="mt-12 max-w-3xl">
 			<p class="text-lg leading-relaxed text-white/60">
-				The world has real problems. Healthcare, education, infrastructure, climate, logistics. Problems that affect actual people. But the talent and energy keeps flowing toward apps that solve mild inconveniences for the already-comfortable.
+				Meanwhile, the world has actual problems. Healthcare, education, infrastructure, logistics. Problems that affect real people. But most of the talent keeps flowing toward apps that solve mild inconveniences for people who already have everything.
 			</p>
 		</div>
 	</div>
@@ -130,7 +130,7 @@
 				<span class="text-white/60">Different</span>
 			</h2>
 			<p class="mt-6 max-w-3xl text-lg leading-relaxed text-white/60">
-				Not built for fundraising. Built to work. This city has always been about solving problems that need solving, not problems that sound good in a pitch deck.
+				Chicago wasn't built for fundraising. It was built to work. The culture here has always been about solving problems that need solving, not problems that sound good in a pitch deck.
 			</p>
 		</div>
 
@@ -146,27 +146,32 @@
 	</div>
 </section>
 
-<!-- American City Section -->
+<!-- Economic Diversity Section -->
 <section class="border-t border-white/10 py-24 md:py-32">
 	<div class="mx-auto max-w-6xl px-4 md:px-6">
-		<div class="grid gap-12 lg:grid-cols-2 lg:gap-20">
-			<div>
-				<SectionLabel>The Real Thing</SectionLabel>
-				<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">
-					An Actually
-					<br />
-					<span class="text-white/60">American City</span>
-				</h2>
+		<div class="mb-16 max-w-3xl">
+			<SectionLabel>The Numbers</SectionLabel>
+			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">
+				Most Diversified
+				<br />
+				<span class="text-white/60">Major Economy</span>
+			</h2>
+			<p class="mt-6 text-lg leading-relaxed text-white/60">
+				San Francisco's top two industries make up 38% of its economy. New York's make up 44%. Chicago's? Just 25%. No single industry here accounts for more than 13% of GDP.
+			</p>
+		</div>
+
+		<CityComparison />
+
+		<div class="mt-16 grid gap-12 lg:grid-cols-2 lg:gap-20">
+			<div class="flex flex-col justify-center">
+				<p class="text-lg leading-relaxed text-white/60">
+					When tech crashes in SF, the whole city feels it. When Wall Street sneezes, New York catches a cold. Chicago doesn't have that problem. Manufacturing, finance, healthcare, logistics—they balance each other out.
+				</p>
 			</div>
 			<div class="flex flex-col justify-center">
 				<p class="text-lg leading-relaxed text-white/60">
-					New York is a global city. San Francisco is a company town for venture capital. Chicago is where America's problems actually get solved. Diverse, industrial, practical, connected to reality.
-				</p>
-				<p class="mt-6 text-lg leading-relaxed text-white/60">
-					The city burned down in 1871. All of it. And instead of waiting for help, Chicago rebuilt itself. Invented the skyscraper along the way. Not as some grand statement, but because land was expensive and buildings needed to go up instead of out.
-				</p>
-				<p class="mt-6 text-lg leading-relaxed text-white/60">
-					Same story with everything else. The railroads, the stockyards, the factories. If something needed to move across America, it came through here. You don't become the crossroads of a continent without learning how to actually get things done.
+					That diversity isn't an accident. This is where all six Class I railroads meet. Where food gets processed and shipped. Where derivatives get traded. When you're the crossroads of a continent, you don't get to specialize in just one thing.
 				</p>
 			</div>
 		</div>
@@ -180,7 +185,7 @@
 			<SectionLabel>Why It Matters</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">For Problem Solvers</h2>
 			<p class="mt-6 max-w-3xl text-lg leading-relaxed text-white/60">
-				The place shapes the people. When you're surrounded by real industry and real needs, you start thinking about real solutions.
+				Where you are changes what you build. When you're surrounded by real industry and real needs, you start thinking about real solutions. Funny how that works.
 			</p>
 		</div>
 
@@ -207,13 +212,13 @@
 				<div>
 					<h3 class="font-display text-2xl text-white">The Point</h3>
 					<p class="mt-4 leading-relaxed text-white/60">
-						Chicago Builders exists because Chicago exists. The ethos of this community (no sales pitches, no recruiting, just people solving real problems) isn't something we invented. It's just what this city is like.
+						Chicago Builders exists because Chicago does. The vibe of this community—no sales pitches, no recruiting, just people working on stuff—isn't something we invented. It's just how Chicago is.
 					</p>
 					<p class="mt-4 leading-relaxed text-white/60">
-						You only get one life. Most of us realized at some point that we didn't want to spend it making software for other people who make software. We wanted to contribute something real. To push things forward for actual people. Build something that makes life a little better, not just a little more convenient.
+						You get one life. A lot of us realized we didn't want to spend it making software for other people who make software. We wanted to build something that matters to someone outside the tech bubble. Something that makes life a little better, not just a little more optimized.
 					</p>
 					<p class="mt-4 leading-relaxed text-white/60">
-						If you're here and you're working on something like that, you already get it. This is your people.
+						If you're working on something like that, you're in the right place. These are your people.
 					</p>
 				</div>
 			</div>
@@ -227,7 +232,7 @@
 		<StarIcon class="mx-auto mb-8 h-10 w-10 text-white/30" />
 		<h2 class="font-display text-5xl text-white md:text-6xl">Join Us</h2>
 		<p class="mx-auto mt-6 max-w-xl text-lg text-white/60">
-			If you're solving real problems in Chicago, this is your community.
+			If you're building something real in Chicago, come hang out.
 		</p>
 		<div class="mt-10">
 			<Button href="https://luma.com/chicago-builders">
