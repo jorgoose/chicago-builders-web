@@ -161,7 +161,7 @@
 				<span class="text-white/60">Builds Things</span>
 			</h2>
 			<p class="mt-6 text-lg leading-relaxed text-white/60">
-				New York's economy is 29% finance. San Francisco's top three sectors are all white-collar services. Chicago? We still make stuff. Manufacturing is 12% of our economy—nearly 4x San Francisco's share.
+				New York's economy is 24% finance and insurance—one sector, a quarter of everything. San Francisco's top three sectors are all white-collar services. Chicago? No single industry tops 17%, and manufacturing is still 12% of the economy.
 			</p>
 		</div>
 
