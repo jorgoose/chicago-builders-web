@@ -18,6 +18,27 @@
 		name="description"
 		content="A social club for Chicago's engineers, designers, founders, and tinkers."
 	/>
+
+	<!-- Open Graph defaults -->
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Chicago Builders" />
+	<meta property="og:locale" content="en_US" />
+
+	<!-- Twitter Card defaults -->
+	<meta name="twitter:card" content="summary" />
+
+	<!-- Structured Data -->
+	{@html `<script type="application/ld+json">${JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "Chicago Builders",
+		"url": "https://chicagobuilders.io",
+		"description": "A social club for Chicago's engineers, designers, founders, and tinkers.",
+		"sameAs": [
+			"https://www.instagram.com/chicagobuilders/",
+			"https://luma.com/chicago-builders"
+		]
+	})}</script>`}
 </svelte:head>
 
 <Navigation />

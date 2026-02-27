@@ -57,6 +57,10 @@
 		name="description"
 		content="Chicago isn't just where we meet. It's why we exist. A city that solves real problems, not imaginary ones."
 	/>
+	<link rel="canonical" href="https://chicagobuilders.io/why-chicago" />
+	<meta property="og:title" content="Why Chicago - Chicago Builders" />
+	<meta property="og:description" content="Chicago isn't just where we meet. It's why we exist. A city that solves real problems, not imaginary ones." />
+	<meta property="og:url" content="https://chicagobuilders.io/why-chicago" />
 </svelte:head>
 
 <!-- Hero Section -->
@@ -81,9 +85,9 @@
 
 		<div class="mt-10 flex opacity-0 animate-fade-up items-center gap-4" style="animation-delay: 0.2s;">
 			<Button href="https://luma.com/chicago-builders">
-				Join Our Next Event
+				View Upcoming Events
 				<svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-					<path d="M5 12h14M12 5l7 7-7 7" />
+					<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
 				</svg>
 			</Button>
 			<Button href="/" variant="secondary">Back to Home</Button>
@@ -92,9 +96,9 @@
 </section>
 
 <!-- The Problem Section -->
-<section class="border-t border-white/10 py-24 md:py-32">
+<section class="border-t border-white/10 py-16 md:py-24">
 	<div class="mx-auto max-w-6xl px-4 md:px-6">
-		<div class="mb-16 max-w-3xl">
+		<div class="mb-12 max-w-3xl">
 			<SectionLabel>The Problem</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">Tech Lost the Plot</h2>
 			<p class="mt-6 text-lg leading-relaxed text-white/60">
@@ -120,9 +124,9 @@
 </section>
 
 <!-- Chicago Is Different Section -->
-<section class="border-t border-white/10 py-24 md:py-32">
+<section class="border-t border-white/10 py-16 md:py-24">
 	<div class="mx-auto max-w-6xl px-4 md:px-6">
-		<div class="mb-16">
+		<div class="mb-12">
 			<SectionLabel>The Alternative</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl lg:text-7xl">
 				Chicago Is
@@ -147,9 +151,9 @@
 </section>
 
 <!-- Economic Diversity Section -->
-<section class="border-t border-white/10 py-24 md:py-32">
+<section class="border-t border-white/10 py-16 md:py-24">
 	<div class="mx-auto max-w-6xl px-4 md:px-6">
-		<div class="mb-16 max-w-3xl">
+		<div class="mb-12 max-w-3xl">
 			<SectionLabel>The Numbers</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">
 				Actually
@@ -179,9 +183,9 @@
 </section>
 
 <!-- Why It Matters Section -->
-<section class="border-t border-white/10 py-24 md:py-32">
+<section class="border-t border-white/10 py-16 md:py-24">
 	<div class="mx-auto max-w-6xl px-4 md:px-6">
-		<div class="mb-16">
+		<div class="mb-12">
 			<SectionLabel>Why It Matters</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">For Problem Solvers</h2>
 			<p class="mt-6 max-w-3xl text-lg leading-relaxed text-white/60">
@@ -204,7 +208,7 @@
 </section>
 
 <!-- The Point Section -->
-<section class="border-t border-white/10 py-24 md:py-32">
+<section class="border-t border-white/10 py-16 md:py-24">
 	<div class="mx-auto max-w-4xl px-4 md:px-6">
 		<Card class="border-white/20 bg-white/5">
 			<div class="flex items-start gap-4">
@@ -227,7 +231,7 @@
 </section>
 
 <!-- CTA Section -->
-<section class="border-t border-white/10 py-24 md:py-32">
+<section class="border-t border-white/10 py-16 md:py-24">
 	<div class="mx-auto max-w-4xl px-4 text-center md:px-6">
 		<StarIcon class="mx-auto mb-8 h-10 w-10 text-white/30" />
 		<h2 class="font-display text-5xl text-white md:text-6xl">Join Us</h2>
@@ -266,6 +270,12 @@
 					class="text-sm text-white/60 transition-colors hover:text-white"
 				>
 					Details
+				</a>
+				<a
+					href="/why-chicago"
+					class="text-sm text-white/60 transition-colors hover:text-white"
+				>
+					Why Chicago
 				</a>
 				<a
 					href="https://luma.com/chicago-builders"

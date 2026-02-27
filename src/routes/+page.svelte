@@ -1,3 +1,10 @@
+<svelte:head>
+	<link rel="canonical" href="https://chicagobuilders.io" />
+	<meta property="og:title" content="Chicago Builders" />
+	<meta property="og:description" content="A social club for Chicago's engineers, designers, founders, and tinkers." />
+	<meta property="og:url" content="https://chicagobuilders.io" />
+</svelte:head>
+
 <script lang="ts">
 	import { Button, Card, SectionLabel, StarIcon } from '$lib/components';
 
@@ -87,12 +94,17 @@
 			</p>
 		</div>
 
+		<!-- Social proof -->
+		<div class="mt-6 animate-fade-up font-mono text-sm tracking-wide text-white/40" style="animation-delay: 0.15s;">
+			100+ builders and growing
+		</div>
+
 		<!-- CTA -->
-		<div class="mt-10 flex animate-fade-up items-center gap-4" style="animation-delay: 0.2s;">
+		<div class="mt-8 flex animate-fade-up items-center gap-4" style="animation-delay: 0.2s;">
 			<Button href="https://luma.com/chicago-builders">
-				Join Our Next Event
+				View Upcoming Events
 				<svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-					<path d="M5 12h14M12 5l7 7-7 7" />
+					<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
 				</svg>
 			</Button>
 			<Button href="#about" variant="secondary">Learn More</Button>
@@ -101,7 +113,7 @@
 </section>
 
 <!-- About Section -->
-<section id="about" class="border-t border-white/10 py-24 md:py-32">
+<section id="about" class="border-t border-white/10 py-16 md:py-24">
 	<div class="mx-auto max-w-6xl px-4 md:px-6">
 		<div class="grid gap-12 lg:grid-cols-2 lg:gap-20">
 			<div>
@@ -140,9 +152,9 @@
 </section>
 
 <!-- Philosophy Section -->
-<section id="philosophy" class="border-t border-white/10 py-24 md:py-32">
+<section id="philosophy" class="border-t border-white/10 py-16 md:py-24">
 	<div class="mx-auto max-w-6xl px-4 md:px-6">
-		<div class="mb-16">
+		<div class="mb-12">
 			<SectionLabel>Philosophy</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">What We Believe</h2>
 		</div>
@@ -160,9 +172,9 @@
 </section>
 
 <!-- Community Section -->
-<section id="community" class="border-t border-white/10 py-24 md:py-32">
+<section id="community" class="border-t border-white/10 py-16 md:py-24">
 	<div class="mx-auto max-w-6xl px-4 md:px-6">
-		<div class="mb-16">
+		<div class="mb-12">
 			<SectionLabel>Community</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">Who Is This For</h2>
 		</div>
@@ -179,7 +191,7 @@
 </section>
 
 <!-- Expect Section -->
-<section class="border-t border-white/10 py-24 md:py-32">
+<section class="border-t border-white/10 py-16 md:py-24">
 	<div class="mx-auto max-w-4xl px-4 text-center md:px-6">
 		<SectionLabel>What to Expect</SectionLabel>
 		<h2 class="mt-4 font-display text-5xl text-white md:text-6xl lg:text-7xl">
@@ -194,7 +206,7 @@
 </section>
 
 <!-- CTA Section -->
-<section class="border-t border-white/10 py-24 md:py-32">
+<section class="border-t border-white/10 py-16 md:py-24">
 	<div class="mx-auto max-w-4xl px-4 text-center md:px-6">
 		<StarIcon class="mx-auto mb-8 h-10 w-10 text-white/30" />
 		<h2 class="font-display text-5xl text-white md:text-6xl">Come to the Next One</h2>
@@ -222,6 +234,12 @@
 			</div>
 
 			<div class="flex items-center gap-6">
+				<a
+					href="/"
+					class="text-sm text-white/60 transition-colors hover:text-white"
+				>
+					Home
+				</a>
 				<a
 					href="/details"
 					class="text-sm text-white/60 transition-colors hover:text-white"

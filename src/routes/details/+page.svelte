@@ -76,6 +76,10 @@
 		name="description"
 		content="Everything you need to know about Chicago Builders meetups - what we do, who should come, and who shouldn't."
 	/>
+	<link rel="canonical" href="https://chicagobuilders.io/details" />
+	<meta property="og:title" content="Details - Chicago Builders" />
+	<meta property="og:description" content="Everything you need to know about Chicago Builders meetups - what we do, who should come, and who shouldn't." />
+	<meta property="og:url" content="https://chicagobuilders.io/details" />
 </svelte:head>
 
 <!-- Hero Section -->
@@ -99,9 +103,9 @@
 
 		<div class="mt-10 flex opacity-0 animate-fade-up items-center gap-4" style="animation-delay: 0.2s;">
 			<Button href="https://luma.com/chicago-builders">
-				Join Our Next Event
+				View Upcoming Events
 				<svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-					<path d="M5 12h14M12 5l7 7-7 7" />
+					<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
 				</svg>
 			</Button>
 			<Button href="/" variant="secondary">Back to Home</Button>
@@ -110,9 +114,9 @@
 </section>
 
 <!-- What Happens Section -->
-<section class="border-t border-white/10 py-24 md:py-32">
+<section class="border-t border-white/10 py-16 md:py-24">
 	<div class="mx-auto max-w-6xl px-4 md:px-6">
-		<div class="mb-16">
+		<div class="mb-12">
 			<SectionLabel>What Happens</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">At the Meetups</h2>
 			<p class="mt-6 max-w-3xl text-lg leading-relaxed text-white/60">
@@ -132,9 +136,9 @@
 </section>
 
 <!-- Who It's For Section -->
-<section class="border-t border-white/10 py-24 md:py-32">
+<section class="border-t border-white/10 py-16 md:py-24">
 	<div class="mx-auto max-w-6xl px-4 md:px-6">
-		<div class="mb-16">
+		<div class="mb-12">
 			<SectionLabel>Who It's For</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">People Building Things</h2>
 			<p class="mt-6 max-w-3xl text-lg leading-relaxed text-white/60">
@@ -157,9 +161,9 @@
 </section>
 
 <!-- Who It's NOT For Section -->
-<section class="border-t border-white/10 py-24 md:py-32">
+<section class="border-t border-white/10 py-16 md:py-24">
 	<div class="mx-auto max-w-6xl px-4 md:px-6">
-		<div class="mb-16">
+		<div class="mb-12">
 			<SectionLabel>Who It's Not For</SectionLabel>
 			<h2 class="mt-4 font-display text-5xl text-white md:text-6xl">Not For Everyone</h2>
 			<p class="mt-6 max-w-3xl text-lg leading-relaxed text-white/60">
@@ -194,7 +198,7 @@
 </section>
 
 <!-- Final CTA -->
-<section class="border-t border-white/10 py-24 md:py-32">
+<section class="border-t border-white/10 py-16 md:py-24">
 	<div class="mx-auto max-w-4xl px-4 text-center md:px-6">
 		<StarIcon class="mx-auto mb-8 h-10 w-10 text-white/30" />
 		<h2 class="font-display text-5xl text-white md:text-6xl">See You There</h2>
@@ -227,6 +231,12 @@
 					class="text-sm text-white/60 transition-colors hover:text-white"
 				>
 					Home
+				</a>
+				<a
+					href="/details"
+					class="text-sm text-white/60 transition-colors hover:text-white"
+				>
+					Details
 				</a>
 				<a
 					href="/why-chicago"
