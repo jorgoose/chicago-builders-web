@@ -1,6 +1,6 @@
 <script lang="ts">
 	import './layout.css';
-	import { Navigation } from '$lib/components';
+	import { Footer, Navigation } from '$lib/components';
 
 	let { children } = $props();
 </script>
@@ -46,3 +46,5 @@
 <main>
 	{@render children()}
 </main>
+
+<Footer />
