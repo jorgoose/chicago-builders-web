@@ -90,13 +90,8 @@
 		<!-- Tagline -->
 		<div class="max-w-2xl animate-fade-up" style="animation-delay: 0.1s;">
 			<p class="text-lg leading-relaxed text-white/60 md:text-xl">
-				A social club for Chicago's engineers, designers, and founders. We hang out, show each other what we're building, and occasionally help each other figure stuff out.
+				A social club for people building things in Chicago.
 			</p>
-		</div>
-
-		<!-- Social proof -->
-		<div class="mt-6 animate-fade-up font-mono text-sm tracking-wide text-white/40" style="animation-delay: 0.15s;">
-			A growing community in Chicago
 		</div>
 
 		<!-- CTA -->
@@ -126,10 +121,10 @@
 			</div>
 			<div class="flex flex-col justify-center">
 				<p class="text-lg leading-relaxed text-white/60">
-					Most tech events in Chicago are networking events. You know the vibe—everyone scanning the room for useful contacts.
+					Most tech events in Chicago are networking events. You know the vibe.
 				</p>
 				<p class="mt-6 text-lg leading-relaxed text-white/60">
-					We wanted something different. A place where people actually talk about what they're making. Side projects, startups, weird experiments. You show up, you meet people, sometimes you end up collaborating on something. It's pretty simple.
+					We wanted something different. A place where people actually talk about what they're making.
 				</p>
 			</div>
 		</div>
@@ -142,7 +137,7 @@
 					<div>
 						<h3 class="font-display text-2xl text-white">What We're About</h3>
 						<p class="mt-3 leading-relaxed text-white/60">
-							We give builders in Chicago a regular place to meet up. That's really the whole idea. No grand mission statement.
+							A regular place for builders in Chicago to meet up. That's the whole idea.
 						</p>
 					</div>
 				</div>
@@ -200,7 +195,7 @@
 			<span class="text-white/60">And Share Ideas</span>
 		</h2>
 		<p class="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-white/60">
-			We meet every few weeks around downtown. Bring your laptop if you want to demo something, or just show up and see what everyone else is working on. There's no agenda. Honestly we're mostly just hanging out.
+			We meet every few weeks around downtown. Bring a laptop if you want to demo something, or just show up. No agenda.
 		</p>
 	</div>
 </section>
