@@ -96,7 +96,7 @@
 
 		<!-- Social proof -->
 		<div class="mt-6 animate-fade-up font-mono text-sm tracking-wide text-white/40" style="animation-delay: 0.15s;">
-			100+ builders and growing
+			A growing community in Chicago
 		</div>
 
 		<!-- CTA -->
