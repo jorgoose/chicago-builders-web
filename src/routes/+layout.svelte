@@ -7,12 +7,6 @@
 
 <svelte:head>
 	<link rel="icon" href="/favicon.svg" />
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap"
-		rel="stylesheet"
-	/>
 	<title>Chicago Builders</title>
 	<meta
 		name="description"
