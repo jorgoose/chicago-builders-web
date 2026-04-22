@@ -112,7 +112,7 @@
 
 		<div class="mt-12 max-w-3xl">
 			<p class="text-lg leading-relaxed text-white/60">
-				Meanwhile, the world has actual problems. Healthcare, education, housing, transportation, food, energy, childcare, infrastructure. Problems that affect real people. But most of the talent keeps flowing toward apps that solve mild inconveniences for people who already have everything.
+				Meanwhile, the world has actual problems. Healthcare, education, housing, transportation, food, agriculture, energy, manufacturing, logistics, infrastructure. Problems that affect real people. But most of the talent keeps flowing toward apps that solve mild inconveniences for people who already have everything.
 			</p>
 		</div>
 	</div>
