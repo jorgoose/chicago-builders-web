@@ -10,7 +10,7 @@
 		{
 			title: 'Work Together',
 			description:
-				'Sometimes we end up debugging stuff together or pair programming on something interesting. Bring your laptop. Or don\'t—you can just watch and hang out.'
+				'Sometimes we end up debugging stuff together or pair programming on something interesting. Bring your laptop. Or don\'t. You can just watch and hang out.'
 		},
 		{
 			title: 'Technical Conversations',
@@ -31,9 +31,9 @@
 				'You\'re building something. Could be an app, a hardware project, a startup. Could be something weird you can\'t explain yet. The point is you\'re actually doing it.'
 		},
 		{
-			title: 'Understands the Tech',
+			title: 'Knows Their Craft',
 			description:
-				'You know what\'s going on under the hood. You can pull up your repo and explain what you did. You won\'t get lost if the conversation gets technical.'
+				'You can go deep on what you\'re building. The tradeoffs you made, the problems you hit, the parts you\'re still figuring out. Not just the pitch version.'
 		},
 		{
 			title: 'Wants Real Feedback',
