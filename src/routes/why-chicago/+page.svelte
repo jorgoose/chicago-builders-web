@@ -42,7 +42,7 @@
 		},
 		{
 			title: 'All Kinds of People',
-			description: 'Finance people, manufacturing engineers, healthcare folks, logistics operators, software people. They\'re all here in roughly equal numbers, and they actually talk to each other. That\'s how interesting stuff gets built.'
+			description: 'Researchers, engineers, designers, healthcare folks, manufacturing people, logistics operators, software people, academics. They\'re all here in roughly equal numbers, and they actually talk to each other. That\'s how interesting stuff gets built.'
 		},
 		{
 			title: 'People Actually Help Each Other',
