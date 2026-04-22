@@ -12,7 +12,7 @@
 		{
 			title: 'Builders First',
 			description:
-				'You make things. Code, hardware, designs, products—whatever. That\'s the only thing we all have in common, and it\'s enough.'
+				'You make things. Code, hardware, designs, products, whatever. That\'s the only thing we all have in common, and it\'s enough.'
 		},
 		{
 			title: 'Community Over Transactions',
