@@ -10,7 +10,7 @@
 		{
 			title: 'Work Together',
 			description:
-				'Sometimes we end up debugging stuff together or pair programming on something interesting. Bring your laptop. Or don\'t. You can just watch and hang out.'
+				'Sometimes people end up working on something together or helping each other get unstuck. Bring whatever you\'re working on. Or don\'t. You can just watch and hang out.'
 		},
 		{
 			title: 'Technical Conversations',
