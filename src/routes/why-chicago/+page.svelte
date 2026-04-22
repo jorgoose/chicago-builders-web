@@ -19,7 +19,7 @@
 	const chicagoTraits = [
 		{
 			title: 'Born from Necessity',
-			description: 'The city burned down in 1871. We rebuilt it and invented the skyscraper while we were at it. That\'s kind of how things work here—problems show up, people fix them.'
+			description: 'The city burned down in 1871. We rebuilt it and invented the skyscraper while we were at it. That\'s kind of how things work here. Problems show up, people fix them.'
 		},
 		{
 			title: 'Where Things Actually Work',
@@ -156,7 +156,7 @@
 				<span class="text-white/60">Builds Things</span>
 			</h2>
 			<p class="mt-6 text-lg leading-relaxed text-white/60">
-				New York's economy is 24% finance and insurance—one sector, a quarter of everything. San Francisco's top three sectors are all white-collar services. Chicago? No single industry tops 17%, and manufacturing is still 12% of the economy.
+				New York's economy is 24% finance and insurance. One sector, a quarter of everything. San Francisco's top three sectors are all white-collar services. Chicago? No single industry tops 17%, and manufacturing is still 12% of the economy.
 			</p>
 		</div>
 
@@ -165,7 +165,7 @@
 		<div class="mt-16 grid gap-12 lg:grid-cols-2 lg:gap-20">
 			<div class="flex flex-col justify-center">
 				<p class="text-lg leading-relaxed text-white/60">
-					When tech crashes in SF, the whole city feels it. When Wall Street sneezes, New York catches a cold. Chicago doesn't have that problem. Manufacturing, finance, healthcare, logistics—they balance each other out.
+					When tech crashes in SF, the whole city feels it. When Wall Street sneezes, New York catches a cold. Chicago doesn't have that problem. Manufacturing, finance, healthcare, logistics. They balance each other out.
 				</p>
 			</div>
 			<div class="flex flex-col justify-center">
@@ -211,7 +211,7 @@
 				<div>
 					<h3 class="font-display text-2xl text-white">The Point</h3>
 					<p class="mt-4 leading-relaxed text-white/60">
-						Chicago Builders exists because Chicago does. The vibe of this community—no sales pitches, no recruiting, just people working on stuff—isn't something we invented. It's just how Chicago is.
+						Chicago Builders exists because Chicago does. The vibe of this community isn't something we invented. No sales pitches, no recruiting, just people working on stuff. It's just how Chicago is.
 					</p>
 					<p class="mt-4 leading-relaxed text-white/60">
 						You get one life. A lot of us realized we didn't want to spend it making software for other people who make software. We wanted to build something that matters to someone outside the tech bubble. Something that makes life a little better, not just a little more optimized.
