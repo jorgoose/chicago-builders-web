@@ -38,7 +38,7 @@
 	const whyItMatters = [
 		{
 			title: 'Closer to Real Problems',
-			description: 'When you\'re not surrounded by tech people all day, you stay connected to what normal people actually need. It\'s harder to disappear up your own ass.'
+			description: 'When you\'re not surrounded by "tech people" all day, you stay connected to what normal people actually need. It\'s harder to disappear up your own ass.'
 		},
 		{
 			title: 'All Kinds of People',
