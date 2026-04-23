@@ -1,7 +1,7 @@
 <svelte:head>
 	<link rel="canonical" href="https://chicagobuilders.io" />
 	<meta property="og:title" content="Chicago Builders" />
-	<meta property="og:description" content="A social club for Chicago's engineers, designers, founders, and tinkers." />
+	<meta property="og:description" content="A social club for people building things in Chicago." />
 	<meta property="og:url" content="https://chicagobuilders.io" />
 </svelte:head>
 
